@@ -33,7 +33,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     else throw 'Conversion failed'
   }
 }
-handler.help = ['stiker', 'stiker', 'stikergif', 'stikergif']
+handler.help = ['sticker', 'stiker', 'stikergif', 'stikergif']
 handler.tags = ['sticker']
 handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
 
