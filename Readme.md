@@ -1,15 +1,11 @@
-<h1 align="center">ꪶ𝐀𝐑𝐂𝐓𝐈𝐗 𝐁𝐎𝐓-𝐌𝐃ꫂ<br></h1>
-<P align="center">𝐀𝐫𝐜𝐭𝐢𝐱 × 𝐀𝐫𝐜𝐞𝐮𝐬 𝐢𝐧𝐜.</p>
+<h1 align="center">ꪶ𝐌𝐈𝐒𝐒 𝐇𝐄𝐋𝐄𝐍𝐀 𝐁𝐎𝐓-𝐌𝐃ꫂ<br></h1>
+<P align="center">𝐌𝐢𝐬𝐬 𝐇𝐞𝐥𝐞𝐧𝐚 𝐢𝐧𝐜.</p>
 <p align="center">
-  <img src="https://telegra.ph/file/12493a57962e154fb6056.jpg" width="350" height="300" />
+  <img src="https://telegra.ph/file/12493a57...962e154fb6056.jpg" width="350" height="300" />
 </p>
 
 <p align="center">
-ArctixBot-MD Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/Sibuuu07" target="_blank">𝐀𝐫𝐜𝐭𝐢𝐱 𝐢𝐧𝐜.</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
-</p>
-
-<p align="center">
-<a href="https://youtu.be/imFIX-Wrt3s"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
+ArctixBot-MD Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/RAFI-SED" target="_blank">𝐑𝐀𝐅𝐈.</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 
 ------
@@ -69,51 +65,3 @@ heroku/nodejs
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sibuuu07/ArctixBot-MD/)
 
-# Install Manually 👇
-## `Requirements`
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
-* [Libwebp](https://developers.google.com/speed/webp/download)
-* Any text editor
-## `Clone Repo & Installation dependencies`
-```bash
-git clone https://github.com/Sibuuu07/ArctixBot-MD.git
-cd ArctixBot-MD
-npm start
-```
-## `For Termux/Ssh/Ubuntu`
-```bash
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y 
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone https://github.com/Sibuuu07/ArctixBot-MD
-cd ArctixBot-MD
-npm start
-```
-## `For VPS`
-```bash
-apt install nodejs 
-apt install git 
-apt apt install ffmpeg 
-apt apt install libwebp 
-apt apt install imagemagick
-apt install bash
-git clone https://github.com/Sibuuu07/ArctixBot-MD
-cd ArctixBot-MD
-npm start
-```
-## `For 24/7 Activation`
-```bash
-npx pm2 start npm --node-args="--optimize_for_size --max_old_space_size=460" -- run db && npx pm2 logs
-```
-# Thanks To 👇
-* [`Baileys`](https://github.com/adiwajshing/Baileys)
-* [`Sibu`](https://github.com/Sibuuu07)
