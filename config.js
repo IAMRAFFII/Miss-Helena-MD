@@ -3,14 +3,14 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['447451240296','Arctix',true],
-  ['358753264940','Arceus',true],
-  ['919337956084', 'sibu', true],
-  //['447451240296']
+  ['919605741366','Arctix',true],
+  ['919605741366','Arceus',true],
+  ['919605741366, 'sibu', true],
+  //['919605741366']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = ['919337956084,447451240296,358753264940'] // Premium user has unlimited limit
+global.prems = ['919605741366'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -35,8 +35,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '𝐀𝐫𝐜𝐭𝐢𝐱'
-global.author = '𝐀𝐫𝐜𝐭𝐢𝐱 × 𝐀𝐫𝐜𝐞𝐮𝐬 𝐢𝐧𝐜.'
+global.packname = 'ᴍɪss ʜᴇʟᴇɴᴀ'
+global.author = 'ᴍᴅ ɪɴᴄ.'
 
 global.multiplier = 69 // The higher, The harder levelup
 
