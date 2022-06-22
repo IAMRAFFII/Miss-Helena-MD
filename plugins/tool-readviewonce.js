@@ -6,8 +6,8 @@ let handler = async (m, { conn }) => {
     await conn.copyNForward(m.chat, msg, true, { readViewOnce: true })
 }
 
-handler.help = ['readviewonce']
+handler.help = ['vv']
 handler.tags = ['tools']
-handler.command = /^readviewonce/i
+handler.command = /^vv/i
 
 export default handler
