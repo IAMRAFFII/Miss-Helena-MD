@@ -23,8 +23,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         })
     } else throw notStickerMessage
 }
-handler.help = ['toimg']
+handler.help = ['image']
 handler.tags = ['sticker']
-handler.command = /^toimg$/i
+handler.command = /^image$/i
 
 export default handler
