@@ -7,7 +7,7 @@ let handler = async (m, { conn, args }) => {
 }
 handler.help = ['here','listonline']
 handler.tags = ['group']
-handler.command = /^(here|(list)?online)$/i
+handler.command = /^(online|(list)?online)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
