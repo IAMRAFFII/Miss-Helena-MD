@@ -6,7 +6,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
     let err = `
 Example:
 ${usedPrefix + command} <lang> [text]
-${usedPrefix + command} id your messages
+${usedPrefix + command} en your messages
 
 List of supported languages: https://cloud.google.com/translate/docs/languages
 `.trim()
@@ -36,9 +36,9 @@ List of supported languages: https://cloud.google.com/translate/docs/languages
     }
 
 }
-handler.help = ['translate'].map(v => v + ' <lang> <teks>')
+handler.help = ['trt'].map(v => v + ' <lang> <teks>')
 handler.tags = ['tools','internet']
-handler.command = /^(tr(anslate)?)$/i
+handler.command = /^(tr(t)?)$/i
 handler.limit = false
 handler.fail = null
 handler.exp = 0
