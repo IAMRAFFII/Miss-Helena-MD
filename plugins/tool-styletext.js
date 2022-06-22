@@ -3,9 +3,9 @@ import { JSDOM } from 'jsdom'
 let handler = async (m, { conn, text }) => {
     conn.reply(m.chat, Object.entries(await stylizeText(text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text)).map(([name, value]) => `*${name}*\n${value}`).join`\n\n`, m)
 }
-handler.help = ['style'].map(v => v + '')
+handler.help = ['fancy'].map(v => v + '')
 handler.tags = ['tools']
-handler.command = /^(style(text)?)$/i
+handler.command = /^(fancy(text)?)$/i
 
 handler.exp = 0
 
