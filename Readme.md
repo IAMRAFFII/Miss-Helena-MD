@@ -1,5 +1,5 @@
 <h1 align="center">ꪶ𝐌𝐈𝐒𝐒 𝐇𝐄𝐋𝐄𝐍𝐀 𝐁𝐎𝐓-𝐌𝐃ꫂ<br></h1>
-<P align="center">𝐌𝐢𝐬𝐬 𝐇𝐞𝐥𝐞𝐧𝐚 𝐢𝐧𝐜.</p>
+<P align="center">𝐌𝐢𝐬𝐬 𝐇𝐞𝐥𝐞𝐧𝐚</p>
 <p align="center">
   <img src="https://telegra.ph/file/12493a57...962e154fb6056.jpg" width="350" height="300" />
 </p>
